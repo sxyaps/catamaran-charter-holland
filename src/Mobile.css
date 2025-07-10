@@ -1,0 +1,603 @@
+/* Mobile.css - Professionele mobile styling zonder impact op desktop */
+
+/* ===== MOBILE-ONLY STYLING ===== */
+@media (max-width: 768px) {
+  /* Mobile variables */
+  :root {
+    --mobile-padding: 1rem;
+    --mobile-gap: 0.75rem;
+    --mobile-border-radius: 12px;
+  }
+
+  /* Base mobile optimizations */
+  html {
+    font-size: 14px;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Container fixes */
+  .site-bg {
+    overflow-x: hidden;
+  }
+
+  .container,
+  .main-content {
+    padding: 0 var(--mobile-padding);
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+
+  /* ===== MOBILE NAVIGATION ===== */
+  
+  /* Hide desktop nav completely */
+  .navbar-menu,
+  .navbar-menu + div {
+    display: none !important;
+  }
+
+  /* Mobile hamburger styling */
+  .mobile-hamburger {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 2000;
+  }
+
+  .mobile-hamburger span {
+    width: 100%;
+    height: 2px;
+    background: var(--white);
+    border-radius: 1px;
+    transition: all 0.3s ease;
+  }
+
+  .mobile-hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(4px, 4px);
+    background: var(--gold);
+  }
+
+  .mobile-hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .mobile-hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(4px, -4px);
+    background: var(--gold);
+  }
+
+  /* Mobile menu overlay */
+  .mobile-menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(145deg, rgba(21,91,119,0.98) 0%, rgba(26,109,143,0.98) 100%);
+    z-index: 1500;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(15px);
+    display: none;
+  }
+
+  .mobile-menu-overlay.active {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+  }
+
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem var(--mobile-padding);
+    gap: 0.5rem;
+  }
+
+  .mobile-nav a {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.9rem 1.8rem;
+    width: 100%;
+    max-width: 260px;
+    text-align: center;
+    border-radius: var(--mobile-border-radius);
+    background: rgba(255,255,255,0.08);
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(8px);
+  }
+
+  .mobile-nav a:hover {
+    background: rgba(252,191,142,0.2);
+    border-color: var(--gold);
+    color: var(--gold);
+    transform: translateY(-2px);
+  }
+
+  .mobile-close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: var(--white);
+    font-size: 1.5rem;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+
+  .mobile-close-btn:hover {
+    background: rgba(255,255,255,0.1);
+    color: var(--gold);
+  }
+
+  .mobile-lang-section {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    width: 100%;
+    max-width: 260px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* ===== MOBILE NAVBAR ===== */
+  
+  .navbar {
+    padding: 0.75rem var(--mobile-padding) !important;
+  }
+
+  .navbar-logo span {
+    font-size: 1.1rem !important;
+  }
+
+  .navbar-logo img {
+    height: 40px !important;
+    width: 40px !important;
+  }
+
+  /* ===== MOBILE HERO SECTION - PROFESSIONAL LAYOUT ===== */
+  
+  .hero {
+    min-height: 100vh !important;
+    padding: 1rem var(--mobile-padding) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-attachment: scroll !important;
+  }
+
+  .hero-content {
+    background: rgba(21,91,119,0.92) !important;
+    backdrop-filter: blur(12px) !important;
+    border-radius: 18px !important;
+    padding: 2rem 1.5rem !important;
+    width: 100% !important;
+    max-width: 380px !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.4) !important;
+    border: 1px solid rgba(255,255,255,0.1) !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .hero-title {
+    font-size: 1.8rem !important;
+    line-height: 1.15 !important;
+    margin-bottom: 0.8rem !important;
+    color: var(--white) !important;
+    text-shadow: none !important;
+    font-weight: 700 !important;
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem !important;
+    line-height: 1.4 !important;
+    margin-bottom: 1.5rem !important;
+    color: var(--off-white) !important;
+    opacity: 0.95 !important;
+    text-shadow: none !important;
+  }
+
+  /* Hide mobile features - verberg de drie badges VOLLEDIG */
+  .hero .hero-features,
+  .hero-content .hero-features,
+  .hero-features,
+  .catamaran-hero-features {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    left: -9999px !important;
+  }
+  
+  .hero .hero-feature,
+  .hero-content .hero-feature,
+  .hero-feature,
+  .catamaran-hero-feature {
+    display: none !important;
+    visibility: hidden !important;
+    position: absolute !important;
+    left: -9999px !important;
+  }
+
+  /* Professional mobile stats - verplaats naar prominente plek */
+  .hero-stats {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 0.5rem !important;
+    margin: 0 0 1.5rem 0 !important;
+    background: none !important;
+    padding: 0 !important;
+    order: -1 !important; /* Verplaats naar boven */
+  }
+
+  .hero-stats > div {
+    background: linear-gradient(135deg, rgba(252,191,142,0.95) 0%, rgba(253,208,169,0.95) 100%) !important;
+    color: var(--navy) !important;
+    padding: 0.8rem 0.4rem !important;
+    border-radius: 10px !important;
+    text-align: center !important;
+    font-weight: 700 !important;
+    font-size: 0.6rem !important;
+    border: 2px solid rgba(255,255,255,0.4) !important;
+    box-shadow: 0 4px 15px rgba(252,191,142,0.3) !important;
+    backdrop-filter: blur(8px) !important;
+    transition: transform 0.2s ease !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 60px !important;
+  }
+
+  .hero-stats > div:hover {
+    transform: translateY(-2px) !important;
+  }
+
+  .hero-stats > div strong {
+    display: block !important;
+    font-size: 1.1rem !important;
+    color: var(--navy) !important;
+    margin-bottom: 0.1rem !important;
+    font-weight: 800 !important;
+    line-height: 1.1 !important;
+  }
+
+  /* Professional CTA buttons - naast elkaar */
+  .hero-cta,
+  .catamaran-hero-cta {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 0.8rem !important;
+    margin-top: 1.5rem !important;
+    width: 100% !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+  }
+
+  .hero-cta button,
+  .hero-cta a,
+  .catamaran-hero-cta button,
+  .catamaran-hero-cta a,
+  .catamaran-btn-primary,
+  .catamaran-btn-secondary {
+    background: linear-gradient(135deg, var(--gold) 0%, #fcc785 100%) !important;
+    color: var(--navy) !important;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    padding: 0.9rem 1.5rem !important;
+    border: 2px solid var(--white) !important;
+    border-radius: 15px !important;
+    box-shadow: 0 4px 15px rgba(252,191,142,0.3) !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    flex: 1 !important;
+    max-width: 150px !important;
+    min-width: 120px !important;
+    transition: all 0.3s ease !important;
+    text-decoration: none !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 0.3rem !important;
+  }
+
+  .hero-cta button:hover,
+  .hero-cta a:hover,
+  .catamaran-hero-cta button:hover,
+  .catamaran-hero-cta a:hover,
+  .catamaran-btn-primary:hover,
+  .catamaran-btn-secondary:hover {
+    background: var(--white) !important;
+    color: var(--navy) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(252,191,142,0.4) !important;
+  }
+
+  /* ===== MOBILE SECTIONS ===== */
+  
+  .section {
+    padding: 2rem var(--mobile-padding) !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .section-title {
+    color: var(--gold) !important;
+    text-align: center !important;
+    font-size: 1.6rem !important;
+    margin-bottom: 1.5rem !important;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.3) !important;
+  }
+
+  /* ===== MOBILE CARDS & GRIDS ===== */
+  
+  .service-grid,
+  .features-grid,
+  .catamaran-specs-premium {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+    padding: 0 !important;
+  }
+
+  .service-card,
+  .feature-card {
+    background: rgba(21,91,119,0.95) !important;
+    backdrop-filter: blur(12px) !important;
+    border: 2px solid rgba(252,191,142,0.3) !important;
+    border-radius: var(--mobile-border-radius) !important;
+    padding: 1.5rem !important;
+    color: var(--white) !important;
+    box-shadow: 0 8px 25px rgba(21,91,119,0.3) !important;
+  }
+
+  .service-card h3,
+  .feature-card h3 {
+    color: var(--gold) !important;
+    font-size: 1.2rem !important;
+    margin-bottom: 0.8rem !important;
+    text-align: center !important;
+  }
+
+  .service-card p,
+  .feature-card p {
+    color: var(--off-white) !important;
+    font-size: 0.85rem !important;
+    line-height: 1.5 !important;
+    text-align: left !important;
+  }
+
+  /* ===== MOBILE FOOTER ===== */
+  
+  .footer {
+    padding: 2rem var(--mobile-padding) 1rem !important;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+    text-align: center !important;
+  }
+
+  .footer-column h3 {
+    font-size: 1.1rem !important;
+    margin-bottom: 0.8rem !important;
+    color: var(--gold) !important;
+  }
+
+  .footer-column p,
+  .footer-column li {
+    font-size: 0.8rem !important;
+    line-height: 1.5 !important;
+    color: var(--off-white) !important;
+  }
+
+  .footer-copyright {
+    font-size: 0.75rem !important;
+    text-align: center !important;
+    margin-top: 1.5rem !important;
+    padding-top: 1rem !important;
+    border-top: 1px solid rgba(255,255,255,0.2) !important;
+  }
+
+  /* ===== MOBILE TYPOGRAPHY ===== */
+  
+  h1 {
+    font-size: 1.8rem !important;
+    line-height: 1.2 !important;
+  }
+
+  h2 {
+    font-size: 1.4rem !important;
+    line-height: 1.3 !important;
+  }
+
+  h3 {
+    font-size: 1.2rem !important;
+    line-height: 1.4 !important;
+  }
+
+  p {
+    font-size: 0.9rem !important;
+    line-height: 1.5 !important;
+  }
+
+  /* ===== MOBILE UTILITIES ===== */
+  
+  /* Prevent overflow */
+  * {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* Better touch targets */
+  button,
+  a {
+    min-height: 44px;
+  }
+
+  /* Image optimizations */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 8px !important;
+  }
+
+  /* Hide scrollbars but keep functionality */
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+
+  /* ===== CATAMARAN PAGE MOBILE FIXES ===== */
+  
+  .catamaran-hero-content {
+    grid-template-columns: 1fr !important;
+    text-align: center !important;
+    padding: 0 1rem !important;
+  }
+
+  .catamaran-hero-title {
+    font-size: 1.8rem !important;
+    text-align: center !important;
+  }
+
+  .catamaran-hero-subtitle {
+    text-align: center !important;
+    font-size: 0.9rem !important;
+  }
+
+  .catamaran-gallery-grid-premium {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: repeat(5, 200px) !important;
+  }
+
+  .catamaran-trust-signals {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 0.8rem !important;
+  }
+
+  .catamaran-booking-section {
+    padding: 1.5rem 1rem !important;
+  }
+
+  /* ===== CONTACT PAGE MOBILE FIXES ===== */
+  
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  .contact-form-row {
+    grid-template-columns: 1fr !important;
+    gap: 0.8rem !important;
+  }
+
+  /* ===== FLOATING BADGE FIXES ===== */
+  
+  /* Fix floating badge container padding to prevent cutoff */
+  div[style*="position: relative"][style*="padding: '2rem 1rem 0 0'"] {
+    padding: 2rem 3rem 0 1rem !important;
+  }
+
+  /* Optimize floating badge positioning for mobile */
+  .catamaran-floating-badge {
+    top: 8px !important;
+    right: 8px !important;
+    padding: 0.5rem 0.8rem !important;
+    font-size: 0.7rem !important;
+    max-width: calc(100% - 20px) !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    border-radius: 25px !important;
+    box-shadow: 0 4px 15px rgba(252,191,142,0.4) !important;
+  }
+
+  /* Ensure parent containers can accommodate floating badges */
+  .catamaran-hero-visual,
+  .catamaran-spec-card {
+    overflow: visible !important;
+    padding-right: 1rem !important;
+  }
+
+  /* Special handling for homepage about section image container */
+  section div[style*="position: relative"] {
+    overflow: visible !important;
+  }
+
+  /* More specific fix for homepage image container */
+  section div[style*="position: relative"][style*="padding: 2rem 1rem 0 0"] {
+    padding: 2rem 2.5rem 0 1rem !important;
+    margin-right: -1rem !important; /* Compensate for extra padding */
+  }
+
+  /* ===== END FLOATING BADGE FIXES ===== */
+}
+
+/* Extra small mobile devices */
+@media (max-width: 480px) {
+  .navbar-logo span {
+    font-size: 1rem !important;
+  }
+  
+  .hero-title,
+  .catamaran-hero-title {
+    font-size: 1.6rem !important;
+  }
+  
+  .mobile-nav a {
+    font-size: 1rem !important;
+    padding: 0.8rem 1.5rem !important;
+  }
+
+  .hero-content {
+    padding: 1.5rem 1.2rem !important;
+    max-width: 340px !important;
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr !important;
+    gap: 0.6rem !important;
+  }
+
+  .hero-stats > div {
+    padding: 1rem !important;
+  }
+
+  .hero-feature {
+    font-size: 0.75rem !important;
+    padding: 0.7rem 0.8rem !important;
+  }
+}

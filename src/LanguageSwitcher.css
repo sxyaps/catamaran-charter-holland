@@ -1,0 +1,36 @@
+/* Language Switcher Styling */
+.language-switcher {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.language-switcher button {
+  background: none;
+  border: 1px solid var(--gold, #d4af37);
+  color: var(--gold, #d4af37);
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.language-switcher button.active,
+.language-switcher button:hover {
+  background: var(--gold, #d4af37);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .language-switcher {
+    margin-left: 0;
+    margin-top: 0.7rem;
+    padding: 0.2rem 0.5rem;
+  }
+  .language-switcher button {
+    font-size: 1rem;
+    padding: 0.3rem 0.7rem;
+  }
+}

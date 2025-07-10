@@ -1,0 +1,30 @@
+
+> catamaran@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Compiled successfully.
+
+File sizes after gzip:
+
+  108.99 kB  build/static/js/main.b08cbb5d.js
+  6.22 kB    build/static/css/main.3b152da4.css
+  4.37 kB    build/static/js/327.0a4d8a04.chunk.js
+  4.12 kB    build/static/js/649.0ccb38e1.chunk.js
+  2.93 kB    build/static/js/399.7a8f964e.chunk.js
+  2.75 kB    build/static/js/749.5c347762.chunk.js
+  2.19 kB    build/static/js/818.9795a3f1.chunk.js
+  1.78 kB    build/static/js/453.3c79fa83.chunk.js
+
+The project was built assuming it is hosted at /.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  serve -s build
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+

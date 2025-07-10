@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logocnSt.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#155b77" />
+    
+    <title>Catamaran Huren | Catamarancharterholland Lelystad</title>
+    <meta name="description" content="Premium catamaran charter met Bali Catsmart & Lagoon 40. Luxe zeiltochten op IJsselmeer & Markermeer." />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="naam" />
+      <input type="email" name="email" />
+      <textarea name="bericht"></textarea>
+      <button type="submit">Send</button>
+    </form>
+    
+    <script src="//code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+    <!-- Booking widget config and script moved to React for async loading -->
+    <script type="text/javascript">
+      var bo_base_url = 'https://boeken.brug-jachtverhuur.nl/';
+      var bo_lang     = "nl";
+      var bo_groep    = '2';
+      var bo_object   = '90,95';
+    </script>
+    <script src="https://boeken.brug-jachtverhuur.nl/BO3.js"></script>
+  </body>
+</html>

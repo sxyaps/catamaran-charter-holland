@@ -1,0 +1,53 @@
+/* CSS Variables */
+:root {
+  /* Primary Colors */
+  --navy: #155b77;
+  --blue-deep: #1a6d8f;
+  --blue-medium: #2984ab;
+  --blue-light: #5ca7c4;
+  --aqua: #9ccedf;
+  
+  /* Neutral Colors */
+  --white: #f2f8f8;
+  --off-white: #e6f1f1;
+  --light-gray: #d9eaea;
+  --medium-gray: #b9d2d2;
+  --dark-gray: #6b9a9a;
+  --near-black: #14454d;
+  
+  /* Accent Colors */
+  --gold: #fcbf8e;
+  --gold-light: #fdd0a9;
+  --teal: #50a1b8;
+  
+  /* UI Elements */
+  --glass-bg: rgba(21,91,119,0.85);
+  --glass-border: rgba(242,248,248,0.15);
+  --shadow-sm: 0 2px 4px rgba(21,91,119,0.08);
+  --shadow-md: 0 4px 8px rgba(21,91,119,0.12);
+  --shadow-lg: 0 8px 16px rgba(21,91,119,0.16);
+  --glow-subtle: 0 0 15px rgba(92,167,196,0.5);
+  --glow-strong: 0 0 25px rgba(92,167,196,0.8);
+  
+  /* Typography */
+  --font-heading: 'Avenir Next', 'Avenir', sans-serif;
+  --font-body: 'Avenir Next', 'Avenir', sans-serif;
+  
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-xl: 2rem;
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}

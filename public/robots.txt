@@ -1,0 +1,26 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://brugyachtcharter.nl/sitemap.xml
+
+# Specific crawling guidelines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Block access to any potential admin or development files
+Disallow: /admin/
+Disallow: /dev/
+Disallow: *.log
+Disallow: /src/
+
+# Allow all image crawling
+User-agent: Googlebot-Image
+Allow: /*
+
+# Crawl delay (optional)
+Crawl-delay: 1
