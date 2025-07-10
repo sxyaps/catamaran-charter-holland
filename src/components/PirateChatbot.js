@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 
 const PirateChatbot = () => {
@@ -16,14 +16,15 @@ const PirateChatbot = () => {
   }, [messages]);
 
   // Get current language from i18n
-  const getCurrentLanguage = () => {
+  const getCurrentLanguage = useCallback(() => {
     const lang = i18n.language;
     // Ensure we have a supported language
     if (['en', 'nl', 'de'].includes(lang)) {
       return lang;
     }
     return 'en'; // Default fallback
-  };
+  }, [i18n.language]);
+
   // Initialize welcome message when chat opens
   useEffect(() => {
     if (isOpen && messages.length === 0) {
@@ -44,7 +45,7 @@ const PirateChatbot = () => {
         setMessages([welcomeMessage]);
       }, 500);
     }
-  }, [isOpen, messages.length, i18n.language, getCurrentLanguage]);  // Enhanced FAQ knowledge base with all real company information
+  }, [isOpen, messages.length, getCurrentLanguage]);  // Enhanced FAQ knowledge base with all real company information
   const faqKnowledge = {
     location: {
       keywords: ['location', 'where', 'address', 'marina', 'lelystad', 'deko', 'waar', 'adres', 'locatie', 'wo', 'adresse', 'standort', 'jetty', 'office', 'restaurant'],
