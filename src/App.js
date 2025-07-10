@@ -51,7 +51,7 @@ export default function App() {
           <div className="navbar-logo">
             <Link to="/" style={{display: 'flex', alignItems: 'center', cursor: 'pointer', textDecoration: 'none'}} onClick={closeMobileMenu}>
               <img
-                src={process.env.PUBLIC_URL + '/logocnWhite.png'}
+                src="/logocnWhite.png"
                 alt={t('header.logoAlt')}
                 style={{height: '60px', width: '60px', marginRight: '0.7rem'}}
                 width={60}
