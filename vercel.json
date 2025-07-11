@@ -13,36 +13,42 @@
   "routes": [
     {
       "src": "/static/(.*)",
+      "dest": "/static/$1",
       "headers": {
         "cache-control": "s-maxage=31536000,immutable"
       }
     },
     {
       "src": "/(.*\\.(png|jpg|jpeg|gif|webp|svg|ico))",
+      "dest": "/$1",
       "headers": {
         "cache-control": "s-maxage=31536000,immutable"
       }
     },
     {
       "src": "/bali-photos/(.*)",
+      "dest": "/bali-photos/$1",
       "headers": {
         "cache-control": "s-maxage=31536000,immutable"
       }
     },
     {
       "src": "/lagoon-photos/(.*)",
+      "dest": "/lagoon-photos/$1",
       "headers": {
         "cache-control": "s-maxage=31536000,immutable"
       }
     },
     {
       "src": "/home-photos/(.*)",
+      "dest": "/home-photos/$1",
       "headers": {
         "cache-control": "s-maxage=31536000,immutable"
       }
     },
     {
       "src": "/vaargebied/(.*)",
+      "dest": "/vaargebied/$1",
       "headers": {
         "cache-control": "s-maxage=31536000,immutable"
       }
