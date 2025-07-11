@@ -1,0 +1,462 @@
+{
+  "hero": {
+    "title1": "Jouw volgende avontuur",
+    "title2": "op het water wacht",
+    "subtitle": "Luxe catamaran charters op het IJsselmeer",
+    "features": {
+      "premiumFleet": "Premium Catamarans",
+      "sailingAreas": "Vaargebieden",
+      "luxuryCharters": "Luxe Charters"
+    },
+    "bookNow": "Boek Nu",
+    "discoverMore": "Ontdek Meer"
+  },
+  "intro": {
+    "title": "Ontdek Onze Catamarans",
+    "subtitle": "Wij sturen je naar onvergetelijke ervaringen",
+    "text": "Verken onze prachtig onderhouden vloot en boek vandaag nog jouw droomcruise."
+  },
+  "about": {
+    "title": "Over Ons",
+    "text1": "Met jarenlange ervaring bieden wij veilige en luxueuze zeilreizen.",
+    "text2": "Onze ervaren bemanning zorgt ervoor dat je een onvergetelijke reis hebt.",
+    "viewBoats": "Bekijk Boten"
+  },
+  "destinations": {
+    "title": "Uitgelichte Bestemmingen",
+    "subtitle": "Vaar naar deze prachtige plekken",
+    "enkhuizen": { 
+      "name": "Enkhuizen", 
+      "desc": "Historische havenstad aan het IJsselmeer." 
+    },
+    "hoorn": { 
+      "name": "Hoorn", 
+      "desc": "Charmante havenstad met rijke maritieme geschiedenis." 
+    },
+    "volendam": {
+      "name": "Volendam",
+      "desc": "Traditioneel vissersdorp met authentiek Nederlands karakter."
+    }
+  },
+  "header": {
+    "brand": "Catamaran Charter Holland",
+    "logoAlt": "Catamaran Charter Holland Logo",    "nav": { 
+      "home": "Home", 
+      "boats": "Boten", 
+      "pricing": "Prijzen", 
+      "weather": "Weer",
+      "contact": "Contact" 
+    }
+  },
+  "boats": {
+    "heroTitle": "Onze Vloot",
+    "heroSubtitle": "Verken onze beschikbare catamarans",
+    "length": "Lengte",
+    "dayCharter": "Dagcharter",
+    "sleepingPlaces": "Slaapplaatsen",
+    "yearBuilt": "Bouwjaar",
+    "viewDetails": "Bekijk Details",
+    "contactTitle": "Meer info nodig?",
+    "contactSubtitle": "Ons team helpt je graag",
+    "viewBaliCatsmart": "Bekijk Bali Catsmart details",
+    "viewLagoon40": "Bekijk Lagoon 40 details",
+    "baliCatsmart": {
+      "title": "Bali Catsmart",
+      "subtitle": "Luxe Catamaran Charter",
+      "descriptionBold": "Sportief & Modern",
+      "description": "Ervaar ongeëvenaard comfort en stijl.",
+      "length": "Lengte",
+      "dayCharter": "Dagcharter",
+      "sleepingPlaces": "Slaapplaatsen",
+      "yearBuilt": "Bouwjaar",
+      "viewDetails": "Bekijk Details"
+    },
+    "lagoon40": {
+      "title": "Lagoon 40",
+      "subtitle": "Comfortabele Zeilervaring",
+      "descriptionBold": "Ruim & Elegant",
+      "description": "Ideaal voor langere reizen.",
+      "length": "Lengte",
+      "dayCharter": "Dagcharter",
+      "sleepingPlaces": "Slaapplaatsen",
+      "yearBuilt": "Bouwjaar",
+      "viewDetails": "Bekijk Details"
+    }
+  },
+  "baliCatsmartPage": {
+    "heroTitle": "Bali Catsmart Charter",
+    "heroSubtitle": "Ervaar luxe op het water",
+    "introText1": "Stap aan boord van onze vlaggenschip catamaran met moderne voorzieningen.",
+    "introText2": "Perfect voor families en groepen tot 8 personen.",
+    "quote": "De beste zeilreis ooit!",
+    "galleryTitle": "Fotogalerij",
+    "specsTitle": "Specificaties",
+    "featuresTitle": "Kenmerken",
+    "onBoardTitle": "Voorzieningen aan Boord",
+    "destinationsTitle": "Bestemmingen",
+    "destinationsText": "Vaar naar prachtige locaties op het IJsselmeer.",
+    "serviceTitle": "Inbegrepen Services",
+    "serviceText1": "Volledige veiligheidsbriefing.",
+    "serviceText2": "Professionele bemanning en schipper.",
+    "ctaTitle": "Klaar om te Boeken?",
+    "ctaText": "Reserveer vandaag nog jouw Bali Catsmart.",
+    "ctaButton": "Boek Nu",
+    "specs": [
+      { "label": "Lengte", "value": "11,32m" },
+      { "label": "Breedte", "value": "6,5m" },
+      { "label": "Diepgang", "value": "1,2m" },
+      { "label": "Motor", "value": "2x30pk" }
+    ],
+    "features": ["Verwarming", "Gefilterd water", "BBQ", "Autopilot"],
+    "onBoard": ["Veiligheidsuitrusting", "Keuken", "Salon", "Zonnedek"],
+    "destinations": ["Enkhuizen", "Hoorn", "Medemblik"]
+  },
+  "lagoon40": {
+    "heroTitle": "Lagoon 40 Charter",
+    "heroSubtitle": "Ruime catamaran voor jouw volgende reis",
+    "intro1": "Ontworpen voor comfort en prestaties.",
+    "intro2": "Ideaal voor langere reizen.",
+    "highlights": "Modern design ontmoet elegantie.",
+    "galleryTitle": "Galerij",
+    "specsTitle": "Specificaties",
+    "featuresTitle": "Kenmerken",
+    "onBoardTitle": "Voorzieningen aan Boord",
+    "destinationsTitle": "Bestemmingen",
+    "destinationsText": "Ontdek pittoreske havens.",
+    "serviceTitle": "Inbegrepen Services",
+    "serviceText1": "Professionele schipper.",
+    "serviceText2": "Bemand of bareboat opties.",
+    "bookNow": "Boek Nu",
+    "ctaTitle": "Klaar om te boeken?",
+    "ctaText": "Reserveer vandaag nog uw Lagoon 40.",
+    "includedServices": [
+      "Professionele schipper.",
+      "Met of zonder bemanning."
+    ],
+    "specs": [
+      { "label": "Lengte", "value": "11,74m" },
+      { "label": "Breedte", "value": "6,76m" },
+      { "label": "Diepgang", "value": "1,3m" },
+      { "label": "Motor", "value": "2x45pk" }
+    ],
+    "features": ["Zonnepanelen", "Flybridge", "Watermaker", "Autopilot"],
+    "onBoard": ["Veiligheidsuitrusting", "Salon", "Kombuis", "Cockpit"],
+    "destinations": [
+      { "name": "Enkhuizen", "description": "Historische havenstad aan het IJsselmeer." },
+      { "name": "Hoorn", "description": "Sfeervolle haven met rijke maritieme historie." },
+      { "name": "Medemblik", "description": "Pittoresk dorp met een kasteel." }
+    ]
+  },
+  "catamaranDestinations": {
+    "title": "Zeilbestemmingen",
+    "subtitle": "Verken prachtige locaties op het IJsselmeer"
+  },
+  "catamaranFeatures": {
+    "title": "Catamaran Kenmerken",
+    "items": [
+      "Modern navigatiesysteem",
+      "Comfortabele hut indeling",
+      "Veiligheidsuitrusting inbegrepen",
+      "Professionele bemanning beschikbaar"
+    ]
+  },
+  "catamaranIntro": {
+    "title": "Welkom aan Boord",
+    "welcome": "Welkom bij onze luxe catamaran ervaring",
+    "text": "Ontdek de schoonheid van het zeilen met onze premium vloot.",
+    "highlights": "Ervaar comfort, veiligheid en avontuur op het water."
+  },
+  "catamaranService": {
+    "title": "Onze Services",
+    "description": "Professionele charter services met ervaren bemanning en moderne uitrusting."
+  },
+  "catamaranSpecs": {
+    "title": "Technische Specificaties",
+    "length": "Lengte",
+    "width": "Breedte",
+    "draft": "Diepgang", 
+    "weight": "Gewicht",
+    "engine": "Motor"
+  },
+  "prijzen": {
+    "title": "Prijzen",
+    "subtitle": "Charter Pakketten",
+    "charter": {
+      "title": "Charter Opties",
+      "subtitle": "Selecteer jouw pakket",
+      "boekNu": "Boek Nu",
+      "vraagOfferte": "Vraag Offerte",
+      "halveDag": {
+        "title": "Halve Dag",
+        "feature1": "Tot 3 uur",
+        "feature2": "Veiligheidsbriefing",
+        "feature3": "Schipper inbegrepen",
+        "feature4": "Brandstof inbegrepen",        "feature5": "Verzekering",
+        "feature6": "Max 12 gasten",
+        "feature7": "€600",
+        "boekNu": "Boek Nu"
+      },
+      "volleDag": {
+        "title": "Hele Dag",
+        "feature1": "Tot 7 uur",
+        "feature2": "Veiligheidsbriefing",
+        "feature3": "Schipper inbegrepen",
+        "feature4": "Brandstof inbegrepen",        "feature5": "Verzekering",        "feature6": "Max 12 gasten",
+        "boekNu": "Boek Nu"
+      },
+      "bareboat": {
+        "title": "Bareboat",
+        "pricing": "Neem contact op voor prijzen",
+        "contactInfo": "Neem contact op voor prijzen",
+        "feature1": "Bareboat opties",
+        "feature2": "Schipper optioneel",
+        "feature3": "Verzekering",
+        "feature4": "€2000 borg",
+        "feature5": "Zeilbrevet vereist",        "feature6": "Ervaring vereist",
+        "boekNu": "Neem Contact Op"
+      },
+      "whyChoose": {
+        "title": "Waarom Kiezen voor Onze Charter Service?",
+        "premiumFleet": {
+          "title": "Premium Vloot",
+          "description": "Onze modern uitgeruste catamarans bieden comfort en veiligheid voor een onvergetelijke zeilervaring op het IJsselmeer."
+        },
+        "experiencedCrew": {
+          "title": "Ervaren Bemanning",
+          "description": "Onze professionele skippers hebben uitgebreide kennis van het vaargebied en zorgen voor een veilige en plezierige trip."
+        },
+        "allInclusive": {
+          "title": "Alles Inbegrepen",
+          "description": "Brandstof, verzekering, veiligheidsuitrusting en professionele begeleiding - alles is inbegrepen in onze transparante prijzen."
+        },
+        "conclusion": "Of je nu kiest voor een ontspannen halve dag op het water of een uitgebreide hele dag charter met lunch, wij zorgen voor een perfecte zeilervaring. Neem contact met ons op voor beschikbaarheid en om jouw charter te reserveren."
+      }
+    },
+    "catering": {
+      "title": "Catering Pakketten",
+      "subtitle": "Heerlijke opties voor dineren aan boord",
+      "perPersoon": "per persoon",      "pakket1": {
+        "title": "Koffie Pakket",
+        "feature1": "Koffie en thee",
+        "feature2": "Koffie bijgerecht"
+      },
+      "pakket2": {
+        "title": "Lunch Pakket",
+        "feature1": "Lunch",
+        "feature2": "Koffie en thee",
+        "feature3": "Koffie bijgerecht"
+      },
+      "pakket3": {
+        "title": "Premium Pakket",
+        "feature1": "Lunch",
+        "feature2": "Diner",
+        "feature3": "Koffie en thee",
+        "feature4": "Koffie bijgerecht",
+        "feature5": "Drijvend buffet"
+      },
+      "glutenvrijToeslag": "€7 glutenvrije toeslag"
+    },
+    "drinks": {
+      "title": "Dranken Menu",
+      "subtitle": "Verfrissingen voor jouw cruise",
+      "onbeperktKoffieTheeWater": "€11.00 incl. BTW",
+      "standaardDrankenassortiment": "Standaard dranken selectie",
+      "hollandsBier": "Hollands bier",
+      "wijn": "Wijn",
+      "borrel": "Borrel",
+      "frisdranken": "Frisdranken",
+      "iceTea": "IJsthee",
+      "vruchtensappen": "Vruchtensappen",
+      "warmeDranken": "Warme dranken"
+    },
+    "additionalInfo": {
+      "title": "Inbegrepen in Charter",
+      "dagcharterInbegrepen": "Dagcharter inbegrepen",
+      "professioneleSchipper": "Professionele schipper",
+      "brandstof": "Brandstof",
+      "verzekering": "Verzekering",
+      "schoonmaak": "Schoonmaak",
+      "gebruikFaciliteiten": "Gebruik van voorzieningen aan boord",
+      "reddingsvesten": "Reddingsvesten",
+      "veiligheidsuitrusting": "Veiligheidsuitrusting",
+      "bareboatMeerdaags": "Meerdag bareboat optie",
+      "volledigUitgerusteCatamaran": "Volledig uitgeruste catamaran",
+      "zeilbrevetEnErvaringVereist": "Zeilbrevet en ervaring vereist",
+      "uitgebreideBriefing": "Uitgebreide briefing",
+      "support": "24/7 ondersteuning",
+      "cateringMogelijk": "Catering mogelijk",
+      "teambuildingProgrammas": "Teambuilding programma's",
+      "flexibeleRoutes": "Flexibele routes",
+      "praktischeInformatie": "Praktische informatie",
+      "seizoen": "Seizoen",
+      "opstapplaats": "Opstapplaats",
+      "adres": "Adres",
+      "gratisParkeren": "Gratis parkeren",
+      "dagcharterMaximaal": "Max gasten voor dagcharter",
+      "bareboatSlaapplaatsen": "Bareboat slaapplaatsen"
+    },
+    "cta": {
+      "title": "Klaar om Uw Charter te Boeken?",
+      "subtitle": "Neem vandaag contact met ons op om uw perfecte zeilavontuur op het IJsselmeer te plannen",
+      "planUwCharter": "Plan Uw Charter"
+    }
+  },
+  "contact": {
+    "heroTitle": "Contact",
+    "heroSubtitle": "Wij helpen je graag met jouw boeking",
+    "formTitle": "Stuur Ons een Bericht",
+    "formSubtitle": "We nemen binnen 24 uur contact met je op",
+    "thankYouMessage": "Bedankt! We hebben jouw bericht ontvangen.",
+    "nameLabel": "Naam",
+    "phoneLabel": "Telefoon",
+    "emailLabel": "Email",
+    "subjectLabel": "Onderwerp",
+    "messageLabel": "Bericht",
+    "submitButton": "Verstuur Bericht",
+    "sending": "Versturen...",
+    "howItWorksTitle": "Hoe Het Werkt",
+    "howItWorksSubtitle": "Eenvoudige stappen om jouw charter te boeken",
+    "step1Title": "Kies Jouw Boot",
+    "step1Description": "Selecteer uit onze premium catamaran vloot",
+    "step2Title": "Kies Jouw Datum",
+    "step2Description": "Kies jouw gewenste zeil datum en tijd",
+    "step3Title": "Bevestig Boeking",
+    "step3Description": "Rond jouw reservering af en ga zeilen"
+  },
+  "transportInfo": {
+    "title": "Bereikbaarheid",
+    "subtitle": "Transport informatie",
+    "label1": "Adres",
+    "value1": "Marina Lelystad, Batavialand 1, 8242 PN Lelystad",
+    "label2": "Parkeren",
+    "value2": "Gratis parkeren beschikbaar",
+    "label3": "Openbaar Vervoer",
+    "value3": "Directe treinverbinding vanuit Amsterdam",
+    "byCar": "Met de Auto",
+    "address": "Marina Lelystad, Batavialand 1, 8242 PN Lelystad",
+    "times": "Reistijden vanuit grote steden",
+    "parking": "Parkeren",
+    "parkingInfo": "Gratis parkeren beschikbaar bij de jachthaven",
+    "viewOnMap": "Bekijk op Kaart",
+    "publicTransport": "Openbaar Vervoer",
+    "trainStation": "Treinstation",
+    "stationLelystad": "Station Lelystad Centrum",
+    "connections": "Verbindingen",
+    "directConnections": "Directe verbindingen vanuit Amsterdam, Utrecht",
+    "howToMarina": "5 minuten lopen naar jachthaven",
+    "departureTimes": "Treinen elke 30 minuten",
+    "groupTransport": "Groepsvervoer",
+    "forWho": "Voor groepen van 10 of meer",
+    "groupsOf10OrMore": "Speciale arrangementen beschikbaar",
+    "options": "Busvervoer opties",
+    "partners": "Wij werken samen met vervoer partners",
+    "contactUsForGroupTransport": "Neem contact op voor groepsvervoer arrangementen",
+    "importantInfo": "Belangrijke vervoer informatie"
+  },
+  "testimonials": {
+    "title": "Wat Onze Gasten Zeggen",
+    "subtitle": "Echte reviews van onze klanten",
+    "testimonial1": {
+      "text": "Een onvergetelijke zeilervaring!",
+      "author": "Jane Doe",
+      "role": "Avonturier"
+    }
+  },
+  "gallery": {
+    "title": "Foto Galerij",
+    "subtitle": "Verken onze vloot in foto's",
+    "item1": "Dek uitzicht",
+    "item2": "Hut interieur",
+    "item3": "Zeilen onder volle zeilen",
+    "item4": "Zonsondergang cruise"
+  },
+  "cta": {
+    "title": "Klaar om te zeilen?",
+    "desc": "Neem vandaag nog contact met ons op om jouw charter te boeken.",
+    "button": "Aan de Slag"
+  },
+  "footer": {
+    "brandTitle": "Over Catamaran Charter Holland",
+    "brandDesc": "Luxe catamaran ervaringen sinds 2015.",
+    "catamaranTitle": "Onze Vloot",
+    "catamaran": {
+      "bali": "Bali Catsmart",
+      "lagoon": "Lagoon 40",
+      "pricing": "Prijzen",
+      "availability": "Beschikbaarheid"
+    },
+    "areaTitle": "Vaargebieden",
+    "area": { 
+      "ijsselmeer": "IJsselmeer", 
+      "markermeer": "Markermeer", 
+      "enkhuizen": "Enkhuizen", 
+      "hoorn": "Hoorn" 
+    },
+    "copyright": "Alle rechten voorbehouden.",
+    "importantInfo": "Alle rechten voorbehouden."
+  },
+  "whatToExpect": {
+    "title": "Wat Kunt U Verwachten?",
+    "subtitle": "Elke charter is een unieke ervaring op het prachtige IJsselmeer",
+    "modernCatamaran": {
+      "title": "Moderne Catamaran",
+      "description": "Onze moderne catamarans zijn uitgerust met alle comfort en veiligheidsvoorzieningen. Ruime dekken, comfortabele zitplaatsen en een overdekte salon zorgen voor een plezierige ervaring bij elk weer."
+    },
+    "safetyFirst": {
+      "title": "Veiligheid Voorop",
+      "description": "Veiligheid staat bij ons voorop. Alle gasten krijgen reddingsvesten, we hebben uitgebreide veiligheidsuitrusting aan boord en onze ervaren skippers zorgen voor een veilige vaart."
+    },
+    "uniqueRoutes": {
+      "title": "Unieke Routes",
+      "description": "Ontdek de mooiste plekjes van het IJsselmeer. Van historische havenstadjes tot rustige baaitjes - elke route biedt spectaculaire uitzichten en interessante verhalen."
+    },
+    "perfectForEveryOccasion": {
+      "title": "Perfect Voor Elke Gelegenheid",
+      "description": "Of u nu een bedrijfsuitje organiseert, een verjaardag viert, een romantische dag plant, of gewoon wilt genieten van het zeilen met vrienden en familie - onze charters bieden de perfecte setting voor onvergetelijke momenten op het water."
+    }
+  },
+  "ijsselmeerInfo": {
+    "title": "Het Prachtige IJsselmeer",
+    "description": "Het IJsselmeer is een van de mooiste zeilgebieden van Nederland. Dit grote binnenmeer biedt uitstekende zeilomstandigheden met voldoende wind en ruimte, terwijl de beschutte ligging zorgt voor veilige vaaromstandigheden.",
+    "features": {
+      "sheltered": "Beschut binnenwater - veilig voor alle niveaus",
+      "historic": "Historische Zuiderzee-steden om te bezoeken",
+      "conditions": "Uitstekende wind- en weeromstandigheden",
+      "sunsets": "Spectaculaire zonsondergangen boven het water"
+    },
+    "destinations": {
+      "title": "Populaire Bestemmingen",
+      "enkhuizen": {
+        "name": "Enkhuizen",
+        "description": "Historische havenstad met prachtige monumenten"
+      },
+      "urk": {
+        "name": "Urk",
+        "description": "Voormalig eiland met authentieke visserscultuur"
+      },      "volendam": {
+        "name": "Volendam",
+        "description": "Kleurrijk vissersdorp met traditionele klederdracht"      }
+    }
+  },
+  "weather": {
+    "heroTitle": "Live Weersinformatie",
+    "heroSubtitle": "Real-time weerdata voor het IJsselmeer zeilgebied",
+    "introTitle": "Plan Uw Perfecte Zeildag",
+    "introText": "Bekijk live weersomstandigheden inclusief regenradar en windvoorspellingen voor het IJsselmeer. Onze weertools helpen u de perfecte catamaran charter ervaring te plannen.",    "radarTitle": "Regenradar - Windy",
+    "radarDesc": "Live neerslagradar die regenintensiteit en beweging toont over Nederland",
+    "liveRainTitle": "IJsselmeer Weer",
+    "liveRainDesc": "Real-time weermonitoring voor veilig zeilen",
+    "currentConditions": "Bekijk Live Condities",
+    "checkBeforeSailing": "Controleer altijd de actuele weersomstandigheden voor vertrek naar uw zeilervaring",
+    "windTitle": "Windomstandigheden - Windy",
+    "windDesc": "Gedetailleerde windvoorspellingen, richting en snelheid voor optimale zeilomstandigheden",
+    "tipsTitle": "Weertips voor het Zeilen",
+    "tip1": "Controleer windcondities voor vertrek - ideale zeilwind is 10-20 knopen",
+    "tip2": "Monitor de regenradar om zware neerslag tijdens uw reis te vermijden",
+    "tip3": "Vroege ochtend en late middag bieden vaak de meest stabiele omstandigheden",
+    "tip4": "Onze ervaren bemanning kan helpen bij het interpreteren van weersomstandigheden voor uw veiligheid",
+    "contactTitle": "Weeradvies Nodig?",
+    "contactText": "Onze ervaren bemanning kan u helpen bij het interpreteren van weersomstandigheden en het plannen van de beste zeilervaring.",
+    "contactButton": "Contact Opnemen"
+  }
+}
